@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(cors());
 
 // database connection with mongodb
-mongoose.connect("mongodb+srv://ravishrandev:v0IBGEWuxaBoR8YK@cluster0.meaunkp.mongodb.net/e-commerce");
+mongoose.connect(//insert mongodb address here);
 
 //API creation
 
